@@ -1,0 +1,19 @@
+{
+    "threads": 1,
+    "name": "iris",
+    "version": "1",
+    "input": "tables/iris/iris.csv",
+    "outdir": "iris",
+    "rows": [150],
+    "experiments": [
+      {
+        "name": "monte carlo 100 000",
+        "optimizations": true,
+        "monte carlo": 100000,
+        "columns": [[]],
+        "find fds": false,
+        "fds": ["1,2,3->5", "1,3,4->5", "2,3,4->5", "1,2,4->5"]
+      }
+    ]
+  }
+  
