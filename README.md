@@ -29,7 +29,7 @@ cd experiments
 ````
 The experiments can take several hours. To reduce the runtime, use the provided options:
 * ``--timeout <seconds>``: Each entropy computation aborts after ``<seconds>`` seconds. The default value is 86400 seconds, i.e., 24 hours.
-* ``--treads <number>``: The entropy computations are parallelized in ``<number>`` threads. The default value is 6.
+* ``--threads <number>``: The entropy computations are parallelized in ``<number>`` threads. The default value is 1.
 * ``--skip-entropy-calc``: Only produces charts using the results in the folder ``results``.
 The results of the experiments are saved in the folder ``results_new``.
 

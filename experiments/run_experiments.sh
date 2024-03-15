@@ -3,7 +3,7 @@
 results_dir="results_new"
 results_dir_new="results_new"
 timeout_seconds=86400
-threads=6
+threads=1
 skip_ent_calc=false
 
 i=1
