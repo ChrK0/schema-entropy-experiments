@@ -2,7 +2,8 @@
 # Contains experiments with scripts for execution
 #
 # Copyright 2024, Christoph Köhnen <christoph.koehnen@uni-passau.de>
-# SPDX-License-Identifier: MIT
+# Copyright 2024, Stefan Klessinger <stefan.klessinger@uni-passau.de>
+# SPDX-License-Identifier: GPL-3.0
 
 FROM ubuntu:22.04
 
