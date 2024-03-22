@@ -1,0 +1,3 @@
+[submodule "schema-entropy"]
+	path = schema-entropy
+	url = https://github.com/ChrK0/schema-entropy.git
