@@ -13,9 +13,9 @@ RUN cd schema-entropy && ./setup.sh
 
 FROM ubuntu:22.04
 
-MAINTAINER Christoph Köhnen <christoph.koehnen@uni-passau.de>
+LABEL org.opencontainers.image.authors="Christoph Köhnen <christoph.koehnen@uni-passau.de>"
 
-ENV DEBIAN_FRONTEND noninteractive
+ENV DEBIAN_FRONTEND=noninteractive
 ENV LANG="C.UTF-8"
 ENV LC_ALL="C.UTF-8"
 
